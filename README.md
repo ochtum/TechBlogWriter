@@ -1,30 +1,43 @@
-# はじめに
-このリポジトリは指定された情報に基づいてテック記事(Qiitaフォーマット)を作成するためのプロンプトになります。
+<p align="left">
+  <a href="README.md"><img src="https://img.shields.io/badge/English Mode-blue.svg" alt="English"></a>
+  <a href="README_jp.md"><img src="https://img.shields.io/badge/日本語 モード-red.svg" alt="日本語"></a>
+</p>
 
-# 利用手順
-## 前提条件
-このプロンプトはVS CodeからGitHub Copilotを使ってAIに記事を書いてもらうことを想定しています。<br>
-それ以外の環境では想定した挙動にならない可能性があるのでご注意ください。<br>
-<br>
-また、現時点では著作権対応していないため、作られた記事は自分でも目視チェックを**必ず**行ってください。<br>
 
-## 1. このリポジトリをクローンする
-## 2. 以下のプロンプトにテック情報（テキスト or URL）を与えて実行する
+# Introduction
+
+This repository provides a prompt designed to generate technical articles (in Qiita format) based on specified information.
+
+# Usage Instructions
+
+## Prerequisites
+
+This prompt assumes that you are using GitHub Copilot from within VS Code to have AI generate the article for you.
+Please note that behavior may differ in other environments. <br>
+Also, since copyright handling has not yet been implemented, **you must manually review** any generated articles yourself. <br>
+
+## 1. Clone this repository
+
+## 2. Provide technical information (text or URL) to the following prompt and execute it
+
 ```
 /01_記事整理
 ```
 
-## 3. 以下のプロンプトを実行する
+## 3. Execute the following prompt
+
 ```
 /02_記事セクション作成
 ```
 
-## 4. 以下のプロンプトに文字数を与えて実行する
+## 4. Provide the desired word count to the following prompt and execute it
+
 ```
 03_記事作成
 ```
 
-## 5. 以下のプロンプトを実行する
+## 5. Execute the following prompt
+
 ```
 /04_記事レビュー
 ```
