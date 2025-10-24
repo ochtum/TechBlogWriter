@@ -1,6 +1,9 @@
 - `templates\記事作成-template.md`のフォーマットに準拠してください。
 - `templates\記事作成-template.md`のYAML区切りは省かないでください。
 - 記事全体を通して一貫した文体・トーンで書いてください。
+- 記事の文体・トーンは以下の記事を参考にしてください。
+  - https://qiita.com/ochtum/items/750413e44b0d296387ef
+- **＜本記事のターゲット層＞**は必ず入れてください。
 - Markdown記法については以下を準拠してください。
   - https://qiita.com/Qiita/items/c686397e4a0f4f11683d
   - https://qiita.com/Qiita/items/e84f5aad7757afce82ba
