@@ -4,11 +4,11 @@
 </p>
 
 
-# Introduction
+# ✅Introduction
 
 This repository provides a prompt designed to generate technical articles (in Qiita format) based on specified information.
 
-# Usage Instructions
+# ✅Usage Instructions
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ Also, since copyright handling has not yet been implemented, **you must manually
 
 ---
 
-# How to Create Writing Style & Tone
+# ✅How to Create Writing Style & Tone
 
 I’m planning to create a custom prompt that automatically extracts writing style and tone.
 Until that’s ready, you can extract the “style & tone” using the method below.
@@ -62,11 +62,11 @@ https://qiita.com/ochtum/items/750413e44b0d296387ef
 
 `.specify\memory\文体・トーン-constitution.md`
 
-# Changing the Format
+# ✅Changing the Format
 
 If you want a format other than Qiita, you can modify `templates\記事作成-template.md` to change the output format.
 
-# About Article Design
+# ✅About Article Design
 
 The rules for article design are written in the section “Rules for Section Design” to “Steps, Notes, and Tips” inside
 `.specify\memory\文体・トーン-constitution.md`<br>
