@@ -41,3 +41,33 @@ Also, since copyright handling has not yet been implemented, **you must manually
 ```
 /04_記事レビュー
 ```
+
+---
+
+# How to Create Writing Style & Tone
+
+I’m planning to create a custom prompt that automatically extracts writing style and tone.
+Until that’s ready, you can extract the “style & tone” using the method below.
+
+## 1. Ask ChatGPT (the free plan is fine) to extract the style & tone by pasting the following:
+
+```
+Please extract the “writing style and tone” in Markdown format from the URL below.
+I will use it as the “rules” for generating future AI-written articles.
+
+https://qiita.com/ochtum/items/750413e44b0d296387ef
+```
+
+## 2. Paste the extracted “style & tone” into:
+
+`.specify\memory\文体・トーン-constitution.md`
+
+# Changing the Format
+
+If you want a format other than Qiita, you can modify `templates\記事作成-template.md` to change the output format.
+
+# About Article Design
+
+The rules for article design are written in the section “Rules for Section Design” to “Steps, Notes, and Tips” inside
+`.specify\memory\文体・トーン-constitution.md`<br>
+You can change the design of your articles by editing this part.
