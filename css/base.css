@@ -1,0 +1,26 @@
+:root {
+  --base-lightness: 0.9267;
+  --base-chroma: 0.0379;
+  --base-hue: 135.49;
+  --base-alpha: 1;
+}
+
+body {
+  background-color: oklch(
+    var(--base-lightness) var(--base-chroma) calc(var(--base-hue)) /
+      var(--base-alpha)
+  );
+  color: black;
+}
+.color-modify {
+  background-color: oklch(
+    var(--base-lightness) var(--base-chroma) calc(var(--base-hue) + 50) /
+      var(--base-alpha)
+  );
+  height: 200px;
+  border: oklch(
+      calc(var(--base-lightness) - 0.3) var(--base-chroma)
+        calc(var(--base-hue)) / var(--base-alpha)
+    )
+    1px solid;
+}
